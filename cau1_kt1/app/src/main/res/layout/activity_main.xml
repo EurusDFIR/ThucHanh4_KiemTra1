@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvNhapTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên: "
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/etMoiNhapTen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Mời nhập tên"
+            android:textSize="18sp"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nhập"
+        android:backgroundTint="#00674F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Position - Value in List:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#00897B"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"/>
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnXemChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Xem chi tiết"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00674F"
+        android:enabled="false"/>
+
+</LinearLayout>
