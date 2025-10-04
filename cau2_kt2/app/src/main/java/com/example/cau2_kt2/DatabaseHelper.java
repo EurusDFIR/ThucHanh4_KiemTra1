@@ -67,8 +67,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO " + TABLE_PHONGBAN + " VALUES ('PB04', 'Phòng IT', 'Công nghệ thông tin')");
 
         // Them nhan vien mau
-        db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV01', 'Nguyen Van A', 'PB01')");
-        db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV02', 'Nguyen Kim Duy', 'PB01')");
+        db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV01', 'Le Van Hoang', 'PB01')");
+        db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV02', 'Nguyen Ngoc Hoa', 'PB01')");
         db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV03', 'Tran Thi B', 'PB02')");
         db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV04', 'Le Van C', 'PB03')");
         db.execSQL("INSERT INTO " + TABLE_NHANVIEN + " VALUES ('NV05', 'Pham Thi D', 'PB04')");

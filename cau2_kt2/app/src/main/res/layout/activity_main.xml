@@ -79,7 +79,7 @@
             android:layout_marginStart="5dp" />
     </LinearLayout>
 
-    <!-- Danh sách nhân viên header -->
+
     <TextView
         android:id="@+id/tvDsnv"
         android:layout_width="wrap_content"
